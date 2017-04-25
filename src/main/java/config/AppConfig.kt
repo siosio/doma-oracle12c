@@ -17,7 +17,7 @@ object AppConfig : Config {
         val oracleDataSource = OracleDataSource()
         oracleDataSource.user = "siosio"
         oracleDataSource.setPassword("siosio")
-        oracleDataSource.url = "jdbc:oracle:thin:@localhost:1521/xe"
+        oracleDataSource.url = "???"
 
         LocalTransactionDataSource(oracleDataSource)
     }
